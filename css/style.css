@@ -1,15 +1,70 @@
 /* google font - poppins  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+
 .body {
     font-family: 'Poppins', sans-serif;
 }
+
+ /* header section  */
 .top-bg {
     background-color: #264653;
 }
+.btn-bg-orange {
+    background-color: #E76F51;
+}
+.paragraph-size {
+    font-size: 16px;
+}
+
+/* featured bike section  */
 .color-orange {
     color: #E76F51;
 }
 .g-scale {
     filter: grayscale(100%);
+}
+
+/* happy clients says section */
+.client-img-size {
+    width: 149px;
+    height: 149px;
+}
+
+/* what we are  up to section  */
+.card-custom {
+    position: relative;
+    overflow: hidden;
+}
+
+.transforms:hover img {
+    transform: scale(1.1); 
+    transition: transform 1s;
+}
+
+.media-icon-link {
+    font-size: 36px;
+}
+
+.media-icon-link .fa-linkedin {
+    color: #0966C2;
+    padding: 5px;
+
+}
+.media-icon-link .fa-facebook-square {
+    color: #0980EC;
+    padding: 5px;
+
+
+}
+.media-icon-link .fa-youtube {
+    color: #FF0100;
+    padding: 5px;
+
+
+}
+.media-icon-link .fa-twitter-square {
+    color: #1991DA;
+    padding: 5px;
+
 }
